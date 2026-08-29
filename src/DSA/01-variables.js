@@ -1,0 +1,1 @@
+console.log('Practice JS project is ready!');
