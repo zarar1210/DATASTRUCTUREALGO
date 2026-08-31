@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dsa": "nodemon --watch src/DSA --ext js"
+    "dsa": "nodemon --watch src/DSA --ext js",
+    "lint:fix": "eslint --fix src/"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
     "nodemon": "^3.1.14"
   }
 }
